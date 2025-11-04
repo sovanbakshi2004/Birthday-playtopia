@@ -7,16 +7,28 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["express", "mongodb", "contact-form"],
+  "keywords": [
+    "express",
+    "mongodb",
+    "contact-form"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "body-parser": "^1.20.2"
+    "express": "^4.21.2",
+    "mongoose": "^7.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovanbakshi2004/Birthday-playtopia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sovanbakshi2004/Birthday-playtopia/issues"
+  },
+  "homepage": "https://github.com/sovanbakshi2004/Birthday-playtopia#readme"
 }

@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB Connection
-const MONGODB_URI = 'mongodb://localhost:27017/birthday-playtopia';
+const MONGODB_URI = 'mongodb+srv://root:12345@cluster0.kq3apbe.mongodb.net/birthday-playtopia';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
