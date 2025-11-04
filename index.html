@@ -985,17 +985,17 @@
               </ul>
             </div>
 
-            <form action="" class="contact-form">
+            <form action="" class="contact-form" id="contactForm">
 
               <div class="input-group">
                 <div class="input-wrapper">
-                  <input type="text" name="name" aria-label="name" placeholder="Your Name" required
+                  <input type="text" name="name" id="name" aria-label="name" placeholder="Your Name" required
                     class="contact-input">
                   <ion-icon name="person-outline"></ion-icon>
                 </div>
 
                 <div class="input-wrapper">
-                  <input type="email" name="email" aria-label="email" placeholder="Your Email" required
+                  <input type="email" name="email" id="email" aria-label="email" placeholder="Your Email" required
                     class="contact-input">
                   <ion-icon name="mail-outline"></ion-icon>
                 </div>
@@ -1003,20 +1003,20 @@
 
               <div class="input-group">
                 <div class="input-wrapper">
-                  <input type="tel" name="phone" aria-label="phone" placeholder="Phone Number" required
+                  <input type="tel" name="phone" id="phone" aria-label="phone" placeholder="Phone Number" required
                     class="contact-input">
                   <ion-icon name="call-outline"></ion-icon>
                 </div>
 
                 <div class="input-wrapper">
-                  <input type="text" name="subject" aria-label="subject" placeholder="Subject" required
+                  <input type="text" name="subject" id="subject" aria-label="subject" placeholder="Subject" required
                     class="contact-input">
                   <ion-icon name="chatbubble-outline"></ion-icon>
                 </div>
               </div>
 
               <div class="input-wrapper full-width">
-                <textarea name="message" aria-label="message" placeholder="Your Message" required
+                <textarea name="message" id="message" aria-label="message" placeholder="Your Message" required
                   class="contact-input" rows="5"></textarea>
                 <ion-icon name="create-outline"></ion-icon>
               </div>
@@ -1025,6 +1025,8 @@
                 <span class="span">Send Message</span>
                 <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
               </button>
+
+              <div id="formMessage" class="form-message" style="display: none; margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
 
             </form>
 
